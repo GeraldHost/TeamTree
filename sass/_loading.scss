@@ -1,0 +1,37 @@
+.loading-page {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background: $blue-4;
+    
+    .spinner {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+    }
+
+    .icon {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        border-radius: 100%;
+        background-color: white;
+        animation: loading 1s infinite alternate;
+    }
+
+    @keyframes loading {
+        from {
+            opacity: 0;
+            transform: scale(0.8);
+        }
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}

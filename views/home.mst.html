@@ -1,0 +1,59 @@
+<div class="hero" style="background-image:url('images/hero.jpg')">
+    <div class="hero-inner">
+        <div class="container-lg">
+            <h1 class="hero-title">{{text.home.heroTitle}}</h1>
+            <p class="hero-body">
+                {{text.home.heroBody}}
+            </p>
+            <a class="btn" href="/services">
+                Our Services
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container-md">
+    <div class="content center padded">
+        <h2>Investigations and Secuirty Solutions</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+    </div>
+</div>
+
+<ul class="inline-list">
+    {{#values}}
+    <li class="inline-list-item">{{title}}</li>
+    {{/values}}
+</ul>
+
+<div class="center padded-bottom">
+    <a class="btn" href="/about">About Team Tree</a>
+</div>
+
+<h2 class="center padded">Our Services</h2>
+
+<div class="container-lg">
+
+    <div class="grid services-grid">
+
+        <div class="row">
+            {{#services}}
+            <div class="col">
+                <a href="/services#{{name}}">
+                    <div class="thumbnail-item">
+                        <div class="thumbnail-content">
+                            <h3 class="thumbnail-title">{{title}}</h3>
+                            <p class="thumbnail-body">{{subTitle}}</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {{/services}}
+        </div>
+
+    </div>
+
+</div>
+
+<div class="center padded padded-extra-bottom">
+    <a class="btn" href="/services">Find out more</a>
+</div>

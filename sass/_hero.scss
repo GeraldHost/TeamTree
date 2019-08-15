@@ -1,0 +1,71 @@
+.hero {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background: $blue-1;
+    background-size: 120%;
+    background-position: center top;
+    min-height: 550px;
+    
+    &-sm {
+        height: 300px;
+        min-height: 0;
+
+        .hero-title {
+            max-width: unset;
+        }
+    }
+
+    .hero-inner {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+    }
+    
+    .btn {
+        margin-top: 20px;
+    }
+}
+
+.hero-title {
+    max-width: 500px;
+    line-height: 50px;
+}
+
+.hero-body {
+    font-size: 20px;
+    max-width: 500px;
+}
+
+@media screen and (max-width: 950px){
+    .hero {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .hero {
+        height: 100vh;
+        background-position: top center;
+        background-size: 300%;
+    }
+
+    .hero-title,
+    .hero-body {
+        max-width: unset;
+        text-align: center;
+    }
+
+    .hero .btn {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        width: 100px;
+    }
+
+    .hero:not(.hero-sm) .hero-inner {
+        top: 30%;
+        transform: unset;
+    }
+}

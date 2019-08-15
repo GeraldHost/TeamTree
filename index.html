@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Team Tree International</title>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Roboto+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/dist/styles.min.css" />
+        <link rel="icon" type="image/png" href="images/favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+</html>
+
+<header>
+    <a href="/home"><img id="logo" src="images/logo.svg" alt="team-tree-international-logo" /></a>
+    <div id="menu">
+        <span class="menu-label">Menu</span>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
+
+<div id="root">
+    <!-- render mustache template -->
+    <div class="loading-page">
+        <div class="spinner">
+            <div class="icon"></div>
+        </div>
+    </div>
+</div>
+
+<div class="main-menu" hidden="true">
+    <ul class="menu-items">
+        <a href="about"><li class="menu-item"><span>About Us</span></li></a>
+        <a href="services"><li class="menu-item"><span>Our Services</span></li></a>
+        <a href="values"><li class="menu-item"><span>Our Values</span></li></a>
+        <a href="contact"><li class="menu-item"><span>Contact</span></li></a>
+    </ul>
+</div>
+
+<footer>
+
+    <img id="particles" src="images/particles.svg" />
+
+    <div class="container-xlg">
+
+        <div class="grid">
+            <div class="row">
+                <div class="col">
+                    <a href="/home">
+                        <img class="logo" src="images/logo.svg" alt="team-tree-international-logo" />           
+                    </a>
+                </div>
+                <div class="col">
+                    <ul class="footer-nav">
+                        <li>Our Services</li>
+                        <li><a href="/services#investigations">Investigations</a></li>
+                        <li><a href="/services#crisis-management">Crisis Management</a></li>
+                        <li><a href="/services#security-consulting">Security Consulting</a></li>
+                        <li><a href="/services#security-training">Security Training</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="footer-nav">
+                        <li>About Us</li>
+                        <li><a href="/values">Our Values</a></li>
+                        <li><a href="/about">Team Tree</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="footer-nav">
+                        <li><a href="/contact">Contact</a></li>
+                        <li>+44 (0) 7123 456 668</li>
+                        <li>info@teamtree.international</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="dist/scripts.min.js?ver=1.1"></script>
+</footer>

@@ -1,0 +1,36 @@
+.btn {
+    padding: 18px 50px 20px;
+    background-color: $blue-4;
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    transition: all 200ms;
+    cursor: pointer;
+
+    &:before,
+    &:after {
+        content: "";
+        display: block;
+        width: 8px;
+        position: absolute;
+        height: 2px;
+        top: 27px;
+        right: 35px;
+        background: white;
+        opacity: 0;
+        transition: all 200ms;
+    }
+
+    &:after { transform: rotate(90deg); }
+
+    &:hover {
+        padding: 18px 55px 20px 45px;
+
+        &:before,
+        &:after { 
+            opacity: 1;
+            right: 40px;
+        }
+    }
+}

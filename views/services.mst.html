@@ -1,0 +1,36 @@
+<div class="hero hero-sm">
+    <div class="hero-inner">
+        <div class="container-lg center">
+            <h1 class="hero-title">Our Service</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container-lg">
+
+    <div class="grid service-articles-grid">
+
+        {{#services}}
+        <div id="{{name}}" class="row service-articles-row">
+            <div class="col">
+                <article class="service-article">
+                    <h2 class="service-title">{{title}}</h2>
+                    <div class="service-body">
+                        {{{body}}}
+                    </div>
+                </article>
+            </div>
+            <div class="col">
+                <div class="service-image"
+                    style="background-image:url({{image}})"></div>
+            </div>
+        </div>
+        {{/services}}
+
+    </div>
+
+</div>
+
+<div class="center padded padded-extra-bottom">
+    <a class="btn" href="/contact">Contact us</a>
+</div>

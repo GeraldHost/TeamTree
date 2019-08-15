@@ -1,0 +1,37 @@
+.values {
+    border-left: 2px solid $blue-2-alt;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.value {
+    margin: 80px auto;
+    overflow: visible;
+}
+
+.value-title {
+    position: relative;
+    &:before,
+    &:after {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: $blue-1;
+        position: absolute;
+        left: -50px;
+        top: 12px;
+        transform: rotate(45deg);
+        overflow: visible;
+    }
+
+    &:after {
+        background-color: white;
+        left: -45px;
+        top: 17px;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        opacity: 0.4;
+    }
+}

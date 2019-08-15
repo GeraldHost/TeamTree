@@ -1,0 +1,36 @@
+.grid {
+    display: block;
+
+    .row {
+        display: flex;
+    }
+
+    .col {
+        flex-grow: 1;
+        flex-basis: 0;
+        min-height: 1px;
+    }
+}
+
+.services-grid {
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col {
+        flex-basis: 50% !important;
+    }
+}
+
+.service-articles-grid {
+    .row:nth-child(even) {
+        flex-direction: row-reverse;    
+    }
+}
+
+@media screen and (max-width: 950px){
+    .grid .row {
+        display: block;
+    }
+}

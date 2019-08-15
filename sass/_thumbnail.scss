@@ -1,0 +1,82 @@
+.thumbnail-item {
+    position: relative;
+    text-align: center;
+    margin: 15px;
+    box-sizing: border-box;
+    color: $blue-2;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    &:hover .thumbnail-title {
+        padding-right: 30px;
+
+        &:before,
+        &:after { 
+            opacity: 1;
+            right: 15px;
+        }
+    }
+
+    &:before {
+        content: "";
+        display: block;
+        padding-top: 60%;
+    }
+
+    p {
+        margin: 5px 0 0 0;
+        color: inherit;
+    }
+}
+
+.thumbnail-title {
+    color: white;
+    font-size: 32px;
+    margin: 0;
+    display: inline-block;
+    transition: 200ms all;
+    position: relative;
+    box-sizing: border-box;
+
+    &:before,
+    &:after {
+        content: "";
+        display: block;
+        width: 8px;
+        position: absolute;
+        height: 2px;
+        top: 27px;
+        right: 0px;
+        background: white;
+        opacity: 0;
+        transition: all 200ms;
+    }
+
+    &:after { transform: rotate(90deg); }
+}
+
+.thumbnail-content {
+    top: 50%;
+    padding: 20px; 
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.grid .row:nth-child(odd){
+    .col:nth-child(4n+1) .thumbnail-item {
+        background-color: $blue-1;
+    }
+    .col:nth-child(4n+2) .thumbnail-item {
+        background-color: $blue-2;
+        color: $blue-1;
+    }
+    .col:nth-child(4n+3) .thumbnail-item {
+        background-color: $blue-3;
+    }
+    .col:nth-child(4n+4) .thumbnail-item {
+        background-color: $blue-4;
+    }
+}
