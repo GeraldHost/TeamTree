@@ -2,34 +2,48 @@ const services = [
     {
         name: 'investigations',
         title: 'Investigations',
-        subTitle: 'Lorem ipsum dolor sit amet',
+        subTitle: 'A global network of skilful investigators',
         image: 'images/investigations.jpg',
-        body: `<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, ipsum in. Magni earum consectetur, fugit, tempore vel tenetur a perferendis quis, molestiae deleniti delectus ducimus explicabo error! Blanditiis, tempora sunt!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, accusantium quo ut saepe.</p>`
+        body: `<p>A global network of skilful investigators with decades of experience leading multi-discipline teams to successfully tackle a wide range criminal, civil and business misconduct allegations.</p>`
     },
     {
         name: 'crisis-management',
         title: 'Crisis Management',
         subTitle: 'Lorem ipsum dolor sit amet',
         image: 'images/crisis-management.jpg',
-        body: `<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, ipsum in. Magni earum consectetur, fugit, tempore vel tenetur a perferendis quis, molestiae deleniti delectus ducimus explicabo error! Blanditiis, tempora sunt!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, accusantium quo ut saepe.</p>`
+        body: `<p>Experienced team will partner with the business to:</p>
+        <ul>
+            <li>Draft crisis management plans and business continuity plans;</li>
+            <li>design and deliver bespoke, business relevant, crisis management training exercises;</li>
+            <li>using a range of tests from table-top exercises through simulation to full interruption exercises.</li>
+        </ul>`
     },
     {
         name: 'security-consultancy',
         title: 'Security Consultancy',
         subTitle: 'Lorem ipsum dolor sit amet',
         image: 'images/security.jpg',
-        body: `<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, ipsum in. Magni earum consectetur, fugit, tempore vel tenetur a perferendis quis, molestiae deleniti delectus ducimus explicabo error! Blanditiis, tempora sunt!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, accusantium quo ut saepe.</p>`
+        body: `<ul>
+        <li>Travel Security</li>
+        <li>Supply Chain Security</li>
+        <li>Event Management</li>
+        <li>Site Security Assurance Programme</li>
+        <li>Technical Surveillance Counter Measures</li>
+        <li>Counter Terrorism</li>
+        </ul>`
     },
     {
         name: 'security-training',
         title: 'Security Training',
         subTitle: 'Lorem ipsum dolor sit amet',
         image: 'images/training.jpg',
-        body: `<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, ipsum in. Magni earum consectetur, fugit, tempore vel tenetur a perferendis quis, molestiae deleniti delectus ducimus explicabo error! Blanditiis, tempora sunt!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, accusantium quo ut saepe.</p>`
+        body: `<ul>
+        <li>Crisis Management & Business Continuity</li>
+        <li>Investigation Skills</li>
+        <li>Interview Techniques</li>
+        <li>Safety & Security Situational Awareness</li>
+        <li>Security Incident Response</li>
+        </ul>`
     }
 ];
 
@@ -45,19 +59,23 @@ const text = {
 const values = [
     {
         name: 'business-focused',
-        title: 'Business Focused'
+        title: 'Business Focused',
+        body: `<p>Business first: we will focus on maximizing value to the business.</p>`
     },
     {
         name: 'value-for-money',
-        title: 'Value For Money'
+        title: 'Value For Money',
+        body: `<p>We will ensure efficient, effective and economical delivery of investigations and security solution.</p>`
     },
     {
         name: 'keep-it-simple',
-        title: 'Keep it simple'
+        title: 'Keep it simple',
+        body: `<p>Transparency and openness are vital. Costs will be set out clearly and we will provide straight-forward reports in plain language.</p>`
     },
     {
         name: 'tell-the-truth',
-        title: 'Tell the truth'
+        title: 'Tell the truth',
+        body: `<p>Honesty and integrity are the foundations of leadership. We will do the right thing because it is the right thing to do; there are no exceptions.</p>`
     }
 ];
 
