@@ -49,7 +49,7 @@ const services = [
 
 const text = {
     home: {
-        heroTitle: 'A global network of security proffesionals',
+        heroTitle: 'A global network of security professionals',
         heroBody: 'Enabling smart security risk decisions. Promoting business resiliance',
         intoTitle: 'Investigations and Secuirty Solutions',
         introBody: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.'
@@ -59,12 +59,12 @@ const text = {
 const values = [
     {
         name: 'business-focused',
-        title: 'Business Focused',
+        title: 'Business focused',
         body: `<p>Business first: we will focus on maximizing value to the business.</p>`
     },
     {
         name: 'value-for-money',
-        title: 'Value For Money',
+        title: 'Value for money',
         body: `<p>We will ensure efficient, effective and economical delivery of investigations and security solution.</p>`
     },
     {
