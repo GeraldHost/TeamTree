@@ -6,6 +6,7 @@
     background-size: 120%;
     background-position: center top;
     min-height: 550px;
+    overflow: auto;
     
     &-sm {
         height: 300px;
@@ -45,7 +46,7 @@
 }
 
 @media screen and (max-width: 600px){
-    .hero {
+    .hero:not(.hero-sm) {
         height: 100vh;
         background-position: top center;
         background-size: 300%;
