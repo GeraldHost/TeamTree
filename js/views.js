@@ -2,26 +2,26 @@ const services = [
     {
         name: 'investigations',
         title: 'Investigations',
-        subTitle: 'A global network of skilful investigators',
+        subTitle: 'A worldwide network of experienced investigators',
         image: 'images/investigations.jpg',
         body: `<p>A global network of skilful investigators with decades of experience leading multi-discipline teams to successfully tackle a wide range criminal, civil and business misconduct allegations.</p>`
     },
     {
         name: 'crisis-management',
         title: 'Crisis Management',
-        subTitle: 'Lorem ipsum dolor sit amet',
+        subTitle: 'Global crisis management and training',
         image: 'images/crisis-management.jpg',
         body: `<p>Experienced team will partner with the business to:</p>
         <ul>
             <li>Draft crisis management plans and business continuity plans;</li>
-            <li>design and deliver bespoke, business relevant, crisis management training exercises;</li>
-            <li>using a range of tests from table-top exercises through simulation to full interruption exercises.</li>
+            <li>Design and deliver bespoke, business relevant, crisis management training exercises;</li>
+            <li>Using a range of tests from table-top exercises through simulation to full interruption exercises.</li>
         </ul>`
     },
     {
         name: 'security-consultancy',
         title: 'Security Consultancy',
-        subTitle: 'Lorem ipsum dolor sit amet',
+        subTitle: 'Comprehensive security consulting services',
         image: 'images/security.jpg',
         body: `<ul>
         <li>Travel Security</li>
@@ -35,7 +35,7 @@ const services = [
     {
         name: 'security-training',
         title: 'Security Training',
-        subTitle: 'Lorem ipsum dolor sit amet',
+        subTitle: 'Bespoke security training by security professionals',
         image: 'images/training.jpg',
         body: `<ul>
         <li>Crisis Management & Business Continuity</li>
@@ -50,7 +50,7 @@ const services = [
 const text = {
     home: {
         heroTitle: 'A global network of security professionals',
-        heroBody: 'Enabling smart security risk decisions. Promoting business resiliance',
+        heroBody: 'Enabling smart security risk decisions Promoting business resiliance',
         intoTitle: 'Investigations and Secuirty Solutions',
         introBody: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.'
     }
