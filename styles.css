@@ -175,7 +175,7 @@ header {
   overflow: auto;
 }
 .hero-sm {
-  height: 300px;
+  height: 220px;
   min-height: 0;
 }
 .hero-sm .hero-title {
