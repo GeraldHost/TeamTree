@@ -187,6 +187,7 @@ header {
 }
 .hero-sm .hero-title {
   max-width: unset;
+  margin-top: 0;
 }
 .hero .hero-inner {
   position: relative;
