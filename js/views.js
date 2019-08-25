@@ -4,7 +4,7 @@ const services = [
         title: 'Investigations',
         subTitle: 'A worldwide network of experienced investigators',
         image: 'images/investigations.jpg',
-        body: `<p>A global network of skilful investigators with decades of experience leading multi-discipline teams to successfully tackle a wide range criminal, civil and business misconduct allegations.</p>`
+        body: `<p>A global network of skillful investigators with decades of experience leading multi-discipline teams providing independence and integrity to successfully tackle a wide range criminal, civil and business misconduct allegations.</p>`
     },
     {
         name: 'crisis-management',
