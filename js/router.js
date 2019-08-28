@@ -55,25 +55,28 @@ const handleRouteChange = ({ route, previousRoute }) => {
         $.get(`views/error.mst.html`, (template) => {
             const rendered = Mustache.render(template, {});
             $('#root').html(rendered);
+            afterRoute();
         });
     } else {
         $.get(`views/${route.name}.mst.html`, (template) => {
             const rendered = Mustache.render(template, views[route.name]);
-            let section = route.meta.options ? route.meta.options.hash : false;
+            let section = route.meta.options ? 
+                route.meta.options.hash : 
+                (window.location.hash ? window.location.hash : false);
             let $rendered = $(rendered);
             $('#root').html($rendered);
             if(section){
                 let top = $rendered.find(section).offset().top;
                 $('html, body').animate({scrollTop: top}, 200, 'linear');
             }
+            afterRoute();
         });
     }
-    afterRoute();
 }
 
 const handleRouteStart = (err, state) => {
     // add navigation listener
-    $(document).on('click', 'a', function (event) {
+    $(document).on('click', 'a:not(.footer-nav-link)', function (event) {
         event.preventDefault();
         let currentRoute = window.location.pathname.replace('/', '');
         let nextRouteHash = this.hash;
