@@ -4,14 +4,14 @@ const services = [
         title: 'Investigations',
         subTitle: 'A worldwide network of experienced investigators',
         image: 'images/investigations.jpg',
-        body: `<p>A global network of skillful investigators with decades of experience leading multi-discipline teams providing independence and integrity to successfully tackle a wide range criminal, civil and business misconduct allegations.</p>`
+        body: `<p>A global network of dedicated and skilful investigators with extensive international experience. Team Tree International provides professionalism, independence and integrity to successfully tackle a wide range of criminal, civil and business misconduct allegations.</p>`
     },
     {
         name: 'crisis-management',
         title: 'Crisis Management',
         subTitle: 'Global crisis management and training',
         image: 'images/crisis-management.jpg',
-        body: `<p>Experienced team will partner with the business to:</p>
+        body: `<p>Our experienced team will partner with your business to:</p>
         <ul>
             <li>Draft crisis management plans and business continuity plans;</li>
             <li>Design and deliver bespoke, business relevant, crisis management training exercises;</li>
@@ -60,7 +60,7 @@ const values = [
     {
         name: 'business-focused',
         title: 'Business focused',
-        body: `<p>Business first: we will focus on maximizing value to the business.</p>`
+        body: `<p>Business first: we will focus on maximising value to the business.</p>`
     },
     {
         name: 'value-for-money',
@@ -75,7 +75,7 @@ const values = [
     {
         name: 'tell-the-truth',
         title: 'Tell the truth',
-        body: `<p>Honesty and integrity are the foundations of leadership. We will do the right thing because it is the right thing to do; there are no exceptions.</p>`
+        body: `<p>Honesty and integrity are the foundations of leadership. At Team Tree International we do the right thing because that is the right thing to do; there are no exceptions.</p>`
     }
 ];
 
