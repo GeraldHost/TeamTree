@@ -20,11 +20,11 @@ h1, h2, h3, h4, h5 {
 }
 
 body, p, li, ul, ol {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto", sans-serif;
 }
 
 p, li {
-  font-size: 14px;
+  font-size: 15px;
   color: #647589;
 }
 
