@@ -24,6 +24,8 @@ const services = [
         subTitle: 'Comprehensive security consulting services',
         image: 'images/security.jpg',
         body: `<ul>
+        <li>Cyber Security</li>
+        <li>NGO, None Profit and Charities investigations</li>
         <li>Travel Security</li>
         <li>Supply Chain Security</li>
         <li>Event Management</li>
