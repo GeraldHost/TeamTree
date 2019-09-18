@@ -14,7 +14,7 @@ const services = [
         body: `<p>Our experienced team will partner with your business to:</p>
         <ul>
             <li>Draft crisis management plans and business continuity plans;</li>
-            <li>Design and deliver bespoke, business relevant, crisis management training exercises;</li>
+            <li>Design and deliver tailored, business relevant, crisis management training exercises;</li>
             <li>Using a range of tests from table-top exercises through simulation to full interruption exercises.</li>
         </ul>`
     },
@@ -25,7 +25,7 @@ const services = [
         image: 'images/security.jpg',
         body: `<ul>
         <li>Cyber Security</li>
-        <li>NGO, None Profit and Charities investigations</li>
+        <li>NGO, Non-Profit and Charities investigations</li>
         <li>Travel Security</li>
         <li>Supply Chain Security</li>
         <li>Event Management</li>
